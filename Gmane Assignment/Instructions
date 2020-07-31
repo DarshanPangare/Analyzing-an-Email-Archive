@@ -1,2 +1,7 @@
- Here we will visualize the mailing list data. 
+ Here we will visualize the mailing list data.
+ First run gmane.py to scrape the web (gmane.dr-chuck.net) and create the SQLite Database(content.sqlite).
  Important: Do not use low counts like 1, 20, 100, 300. You can run gmane multiple times to download more messages.
+ Now, run the gmodel.py file to create the index.sqlite database.
+ You can run the gbasic.py file to dump any number of messages you want.
+ In order to get the line visualization, run the gline.py file and open the gline.htm file in your web browser.
+ In order to get the word visualization, run the gword.py file and open the gword.htm file in your web browser.
